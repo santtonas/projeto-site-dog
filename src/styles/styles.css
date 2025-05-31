@@ -45,3 +45,61 @@ section{
     html, body {
     overflow-x: hidden;
 }
+
+.social-media-buttons {
+   display: flex;
+   gap: 18px
+}
+
+.social-media-buttons a {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 40px;
+ height: 40px;
+ background-color: #fff;
+ box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+ border-radius: 12%;
+ font-size: 1.2rem;
+ text-decoration: none;
+ color: #1d1d1d;
+ transition: box-shadow 3s ease;;
+}
+
+.social-media-buttons a:hover {
+ background-color: #ffcb45;
+ color: #fff;
+}
+
+@media screen and (max-width: 1170px) {
+    #home{
+        min-width: 100%;
+        padding-top: 0px;  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        text-align: center;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape{
+        display: none;
+    }
+
+    #cta{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    @media screen and (max-width: 450px){
+        #phone_btn button{
+            display: none;
+        }
+    }
+}
+
+.section-title{
+    color: #ffcb45;
+}

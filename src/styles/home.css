@@ -1,6 +1,7 @@
 #home {
     display: flex;
     min-height: calc(100vh - 91px);
+    position: relative;
 }
 
 #cta{
@@ -49,13 +50,55 @@
 #banner {
     width: 95%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;                 
     align-items: center;
+    flex-direction: column;
 }
 
 #banner img {
     max-width: 3000%;
     height: auto;
     margin-top: -80px;
-    width: 200%;
+    width: 100%;
+}
+
+#banner{
+    display: flex;  
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+.shape{
+    background-color: #ffe8b4;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+#banner{
+    display: flex;  
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+.shape{
+    background-color: #ffe8b4;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
