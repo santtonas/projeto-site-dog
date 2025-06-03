@@ -103,3 +103,7 @@ section{
 .section-title{
     color: #ffcb45;
 }
+
+html {
+  scroll-behavior: smooth;
+}

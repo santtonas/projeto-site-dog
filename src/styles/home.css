@@ -1,6 +1,6 @@
 #home {
     display: flex;
-    min-height: calc(100vh - 91px);
+    min-height: 80vh;
     position: relative;
 }
 
@@ -102,3 +102,5 @@
     right: 0;
     z-index: -1;
 }
+
+
