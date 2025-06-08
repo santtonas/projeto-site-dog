@@ -1,0 +1,22 @@
+.dish-description a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ @media screen and (max-width: 600px){
+    .dish{
+        width: 100%;
+        }
+
+    #ongs .section-subtitle{
+        text-align: center;
+    }
+
+    #ongs .section-title{
+        font-size: 1.5rem;
+    }
+
+
+    }
+
+    

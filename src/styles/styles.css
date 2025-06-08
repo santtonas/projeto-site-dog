@@ -72,33 +72,51 @@ section{
 }
 
 @media screen and (max-width: 1170px) {
-    #home{
-        min-width: 100%;
-        padding-top: 0px;  
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;    
-        text-align: center;
-    }
+  #home {
+    min-width: 100%;
+    padding-top: 0px;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+  }
 
-    #banner,
-    #banner img,
-    #home .shape{
-        display: none;
-    }
+  #banner,
+  #banner img,
+  #home .shape {
+    display: none;
+  }
 
-    #cta{
-        width: 100%;
-        align-items: center;
-        margin-top: 0;
-    }
-    
-    @media screen and (max-width: 450px){
-        #phone_btn button{
-            display: none;
-        }
-    }
+  #cta {
+    width: 100%;
+    align-items: center;
+    margin-top: 0;
+  }
 }
+
+
+@media screen and (max-width: 450px) {
+  #phone_btn button {
+    display: none;
+  }
+
+  .title {
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    gap: 150px;
+  }
+
+ #home {
+    padding-top: 120px;
+  }
+
+}
+
+
 
 .section-title{
     color: #ffcb45;
